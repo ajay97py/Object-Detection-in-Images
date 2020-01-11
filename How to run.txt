@@ -1,0 +1,13 @@
+Software Required: 
+1. Python 3.6
+2. OpenCV
+
+
+
+1. Save all these documents at the same place.
+2. Go to Command Prompt
+3. Change path to the current working space of the files.
+4. Import the necessary libraries including numpy, argparse, cv2.
+4. Download images from the web in jpg format and store it in the "images folder".
+4. Execute it through following command:
+python deep_learning_object_detection --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel --image images/<image_name.jpg>
